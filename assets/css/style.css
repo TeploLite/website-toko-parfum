@@ -134,3 +134,7 @@ button.cari:active {
 	color: white;
 	text-align: center;
 }
+.produk {
+	width: 200px; /* Lebar gambar */
+	height: 250px; /* Tinggi gambar */
+}

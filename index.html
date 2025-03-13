@@ -91,11 +91,11 @@
 		<div class="row justify-content-center text-center" id="produk">
 			<div class="col-md-3">
 				<div class="card" style="width: 18rem">
-					<img src="/assets/images/bg.png" class="card-img-top" alt="..." />
+					<img src="/assets/images/produk/enchanted1.png" class="card-img-top" alt="..." />
 					<div class="card-body">
 						<h5 class="card-title">Mykonos Enchanted 50 ML</h5>
 						<div class="card-text text-start">
-							<a>Eau De Parfum</a>
+							<a>Extrait De Parfum</a>
 						</div>
 						<div class="card-text text-start">
 							<a>Unisex</a>
@@ -103,17 +103,45 @@
 						<div class="card-text text-start">
 							<p>Rp 169.000</p>
 						</div>
-						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Deskripsi Produk</button>
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalEnchanted">Deskripsi Produk</button>
 
 						<!-- Modal -->
-						<div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal fade" id="ModalEnchanted" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
 								<div class="modal-content">
 									<div class="modal-header">
 										<h5 class="modal-title" id="exampleModalLabel">Deskripsi Produk</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 									</div>
-									<div class="modal-body">Ini adalah deskripsi produk. Anda bisa mengganti teks ini dengan informasi detail mengenai produk.</div>
+									<div id="carouselEnchanted" class="carousel slide">
+										<div class="carousel-indicators">
+											<button type="button" data-bs-target="#carouselEnchanted" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+											<button type="button" data-bs-target="#carouselEnchanted" data-bs-slide-to="1" aria-label="Slide 2"></button>
+											<button type="button" data-bs-target="#carouselEnchanted" data-bs-slide-to="2" aria-label="Slide 3"></button>
+										</div>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img src="/assets/images/produk/enchanted1.png" class="produk" alt="Mykonos Enchanted" />
+											</div>
+											<div class="carousel-item">
+												<img src="/assets/images/produk/enchanted2.png" class="produk" alt="..." />
+											</div>
+											<div class="carousel-item">
+												<img src="/assets/images/produk/enchanted3.png" class="produk" alt="..." />
+											</div>
+										</div>
+										<button class="carousel-control-prev" type="button" data-bs-target="#carouselEnchanted" data-bs-slide="prev">
+											<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+											<span class="visually-hidden">Previous</span>
+										</button>
+										<button class="carousel-control-next" type="button" data-bs-target="#carouselEnchanted" data-bs-slide="next">
+											<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											<span class="visually-hidden">Next</span>
+										</button>
+									</div>
+									<div class="modal-body">Mykonos Enchanted Extrait De Parfum 50 ML</div>
+									<div class="modal-body">Top Notes: Mandarin Orange Middle Notes: Peony, Rose, Violet, Peach Base Notes: Iris, Musk</div>
+									<div class="modal-body">Immerse yourself in the most magical blend of fresh florals, A scent that transports you into a fairytale...somewhere in the meadows, Where you're surrounded by dewy bouquets of roses & peonies.</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
 										<button type="button" class="btn btn-primary">Beli Sekarang</button>
@@ -282,15 +310,53 @@
 						<div class="card-text text-start">
 							<p>Rp 209.000</p>
 						</div>
-						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Deskripsi Produk</button>
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalLuminous">Deskripsi Produk</button>
 
 						<!-- Modal -->
-						<div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal fade" id="ModalLuminous" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
 								<div class="modal-content">
 									<div class="modal-header">
 										<h5 class="modal-title" id="exampleModalLabel">Deskripsi Produk</h5>
 										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div id="carouselExampleCaptions" class="carousel slide">
+										<div class="carousel-indicators">
+											<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+											<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+											<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+										</div>
+										<div class="carousel-inner">
+											<div class="carousel-item active">
+												<img src="..." class="d-block w-100" alt="..." />
+												<div class="carousel-caption d-none d-md-block">
+													<h5>First slide label</h5>
+													<p>Some representative placeholder content for the first slide.</p>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<img src="..." class="d-block w-100" alt="..." />
+												<div class="carousel-caption d-none d-md-block">
+													<h5>Second slide label</h5>
+													<p>Some representative placeholder content for the second slide.</p>
+												</div>
+											</div>
+											<div class="carousel-item">
+												<img src="..." class="d-block w-100" alt="..." />
+												<div class="carousel-caption d-none d-md-block">
+													<h5>Third slide label</h5>
+													<p>Some representative placeholder content for the third slide.</p>
+												</div>
+											</div>
+										</div>
+										<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+											<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+											<span class="visually-hidden">Previous</span>
+										</button>
+										<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+											<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											<span class="visually-hidden">Next</span>
+										</button>
 									</div>
 									<div class="modal-body">Ini adalah deskripsi produk. Anda bisa mengganti teks ini dengan informasi detail mengenai produk.</div>
 									<div class="modal-footer">
