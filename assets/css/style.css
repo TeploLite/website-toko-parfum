@@ -138,3 +138,36 @@ button.cari:active {
 	width: 200px; /* Lebar gambar */
 	height: 250px; /* Tinggi gambar */
 }
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 5px;
+	left: 0;
+	right: 0;
+	bottom: -5px;
+	background-color: #ccc;
+	transition: 0.4s;
+	border-radius: 34px;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 22px;
+	width: 22px;
+	left: 6px;
+	bottom: 2px;
+	top: 1px;
+	background-color: black;
+	transition: 0.4s;
+	border-radius: 50%;
+}
+
+input:checked + .slider {
+	background: linear-gradient(to right, #fb5283, #ff3527) !important;
+}
+
+input:checked + .slider:before {
+	transform: translateX(26px);
+}
